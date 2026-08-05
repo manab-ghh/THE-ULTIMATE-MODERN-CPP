@@ -1,0 +1,19 @@
+A keyword is a reserved word in programming language that 
+has a special meaning and purpose defined by the language.
+
+Because these words are reserved by the language,
+It's cannot used as identifiers
+
+int     double      char
+bool    void        if
+else    switch      case
+for     while       do
+break   continue    return
+and    or    not     xor
+class   struct      public
+private protected   const
+static  new         delete
+this    virtual     override
+namespace using     template
+typename  auto      nullptr
+sizeof   try   catch   throw     etc...
