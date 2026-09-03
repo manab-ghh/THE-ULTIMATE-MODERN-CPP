@@ -54,5 +54,19 @@ int main() {
     m %= 3; // equivalent to m = m % 3
     cout << "Assignment Operator (%=): " << m << endl;  
 
+    //Increment and Decrement Operator.....
+    int n = 5;
+    cout << "Post-increment: " << n++ << endl; // prints 5
+    cout << "After Post-increment: " << n << endl; // prints 6
+    cout << "Pre-increment: " << ++n << endl; // prints 7
+    cout << "Post-decrement: " << n-- << endl; // prints 7
+    cout << "After Post-decrement: " << n << endl; // prints 6
+    cout << "Pre-decrement: " << --n << endl; // prints 5   
+
+    //Ternary or Conditional Operator.....
+    int age = 20;
+    string result = (age >= 18) ? "Adult" : "Minor";
+    cout << "Ternary Operator: " << result << endl;
+
     return 0;
 }

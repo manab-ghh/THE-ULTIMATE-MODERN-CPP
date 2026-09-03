@@ -69,7 +69,11 @@ int main() {
     a.pop_back(); //Pop element at the end
 
     //*insert()------------------------
-    a.insert(a.begin() + 2, 70); 
+    a.insert(a.begin() + 2, 70); //Insert element at the position [vec_name.insert(pos, val)]
+
+    //*erase()-------------------------
+    a.erase(a.begin()+2); //Erase element at the position [vec_name.erase(pos)]
+    a.erase(a.begin()+1, a.begin()+2); //Erase the sub vector [vec_name.erase(first_pos, last_pos)]
 
     return 0;
 }
